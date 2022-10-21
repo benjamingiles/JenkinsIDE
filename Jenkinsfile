@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "benjamingiles/calculator_app"
+    registry = "benjamingiles / calculator_app"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
